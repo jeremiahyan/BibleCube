@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BE635931BA15F2A009EE088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE635921BA15F2A009EE088 /* main.m */; };
+		0BE635961BA15F2A009EE088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE635951BA15F2A009EE088 /* AppDelegate.m */; };
+		0BE635991BA15F2A009EE088 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE635981BA15F2A009EE088 /* FirstViewController.m */; };
+		0BE6359C1BA15F2A009EE088 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE6359B1BA15F2A009EE088 /* SecondViewController.m */; };
+		0BE6359F1BA15F2A009EE088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE6359D1BA15F2A009EE088 /* Main.storyboard */; };
+		0BE635A11BA15F2A009EE088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE635A01BA15F2A009EE088 /* Images.xcassets */; };
+		0BE635A41BA15F2A009EE088 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BE635A21BA15F2A009EE088 /* LaunchScreen.xib */; };
+		0BE635B01BA15F2A009EE088 /* BibleCubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE635AF1BA15F2A009EE088 /* BibleCubeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BE635AA1BA15F2A009EE088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BE635851BA15F2A009EE088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BE6358C1BA15F2A009EE088;
+			remoteInfo = BibleCube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE6358D1BA15F2A009EE088 /* BibleCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE635911BA15F2A009EE088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE635921BA15F2A009EE088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BE635941BA15F2A009EE088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BE635951BA15F2A009EE088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BE635971BA15F2A009EE088 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0BE635981BA15F2A009EE088 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0BE6359A1BA15F2A009EE088 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0BE6359B1BA15F2A009EE088 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0BE6359E1BA15F2A009EE088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BE635A01BA15F2A009EE088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BE635A31BA15F2A009EE088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0BE635A91BA15F2A009EE088 /* BibleCubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleCubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE635AE1BA15F2A009EE088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE635AF1BA15F2A009EE088 /* BibleCubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BibleCubeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BE6358A1BA15F2A009EE088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE635A61BA15F2A009EE088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE635841BA15F2A009EE088 = {
+			isa = PBXGroup;
+			children = (
+				0BE6358F1BA15F2A009EE088 /* BibleCube */,
+				0BE635AC1BA15F2A009EE088 /* BibleCubeTests */,
+				0BE6358E1BA15F2A009EE088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BE6358E1BA15F2A009EE088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BE6358D1BA15F2A009EE088 /* BibleCube.app */,
+				0BE635A91BA15F2A009EE088 /* BibleCubeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BE6358F1BA15F2A009EE088 /* BibleCube */ = {
+			isa = PBXGroup;
+			children = (
+				0BE635941BA15F2A009EE088 /* AppDelegate.h */,
+				0BE635951BA15F2A009EE088 /* AppDelegate.m */,
+				0BE635971BA15F2A009EE088 /* FirstViewController.h */,
+				0BE635981BA15F2A009EE088 /* FirstViewController.m */,
+				0BE6359A1BA15F2A009EE088 /* SecondViewController.h */,
+				0BE6359B1BA15F2A009EE088 /* SecondViewController.m */,
+				0BE6359D1BA15F2A009EE088 /* Main.storyboard */,
+				0BE635A01BA15F2A009EE088 /* Images.xcassets */,
+				0BE635A21BA15F2A009EE088 /* LaunchScreen.xib */,
+				0BE635901BA15F2A009EE088 /* Supporting Files */,
+			);
+			path = BibleCube;
+			sourceTree = "<group>";
+		};
+		0BE635901BA15F2A009EE088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BE635911BA15F2A009EE088 /* Info.plist */,
+				0BE635921BA15F2A009EE088 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BE635AC1BA15F2A009EE088 /* BibleCubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BE635AF1BA15F2A009EE088 /* BibleCubeTests.m */,
+				0BE635AD1BA15F2A009EE088 /* Supporting Files */,
+			);
+			path = BibleCubeTests;
+			sourceTree = "<group>";
+		};
+		0BE635AD1BA15F2A009EE088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BE635AE1BA15F2A009EE088 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BE6358C1BA15F2A009EE088 /* BibleCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE635B31BA15F2A009EE088 /* Build configuration list for PBXNativeTarget "BibleCube" */;
+			buildPhases = (
+				0BE635891BA15F2A009EE088 /* Sources */,
+				0BE6358A1BA15F2A009EE088 /* Frameworks */,
+				0BE6358B1BA15F2A009EE088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BibleCube;
+			productName = BibleCube;
+			productReference = 0BE6358D1BA15F2A009EE088 /* BibleCube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BE635A81BA15F2A009EE088 /* BibleCubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE635B61BA15F2A009EE088 /* Build configuration list for PBXNativeTarget "BibleCubeTests" */;
+			buildPhases = (
+				0BE635A51BA15F2A009EE088 /* Sources */,
+				0BE635A61BA15F2A009EE088 /* Frameworks */,
+				0BE635A71BA15F2A009EE088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BE635AB1BA15F2A009EE088 /* PBXTargetDependency */,
+			);
+			name = BibleCubeTests;
+			productName = BibleCubeTests;
+			productReference = 0BE635A91BA15F2A009EE088 /* BibleCubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BE635851BA15F2A009EE088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Jeremiah Yan";
+				TargetAttributes = {
+					0BE6358C1BA15F2A009EE088 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0BE635A81BA15F2A009EE088 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0BE6358C1BA15F2A009EE088;
+					};
+				};
+			};
+			buildConfigurationList = 0BE635881BA15F2A009EE088 /* Build configuration list for PBXProject "BibleCube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BE635841BA15F2A009EE088;
+			productRefGroup = 0BE6358E1BA15F2A009EE088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BE6358C1BA15F2A009EE088 /* BibleCube */,
+				0BE635A81BA15F2A009EE088 /* BibleCubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BE6358B1BA15F2A009EE088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE6359F1BA15F2A009EE088 /* Main.storyboard in Resources */,
+				0BE635A41BA15F2A009EE088 /* LaunchScreen.xib in Resources */,
+				0BE635A11BA15F2A009EE088 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE635A71BA15F2A009EE088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BE635891BA15F2A009EE088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE6359C1BA15F2A009EE088 /* SecondViewController.m in Sources */,
+				0BE635961BA15F2A009EE088 /* AppDelegate.m in Sources */,
+				0BE635991BA15F2A009EE088 /* FirstViewController.m in Sources */,
+				0BE635931BA15F2A009EE088 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE635A51BA15F2A009EE088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE635B01BA15F2A009EE088 /* BibleCubeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BE635AB1BA15F2A009EE088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BE6358C1BA15F2A009EE088 /* BibleCube */;
+			targetProxy = 0BE635AA1BA15F2A009EE088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BE6359D1BA15F2A009EE088 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BE6359E1BA15F2A009EE088 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BE635A21BA15F2A009EE088 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BE635A31BA15F2A009EE088 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BE635B11BA15F2A009EE088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BE635B21BA15F2A009EE088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BE635B41BA15F2A009EE088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BibleCube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0BE635B51BA15F2A009EE088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BibleCube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0BE635B71BA15F2A009EE088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BibleCubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibleCube.app/BibleCube";
+			};
+			name = Debug;
+		};
+		0BE635B81BA15F2A009EE088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BibleCubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibleCube.app/BibleCube";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BE635881BA15F2A009EE088 /* Build configuration list for PBXProject "BibleCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE635B11BA15F2A009EE088 /* Debug */,
+				0BE635B21BA15F2A009EE088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BE635B31BA15F2A009EE088 /* Build configuration list for PBXNativeTarget "BibleCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE635B41BA15F2A009EE088 /* Debug */,
+				0BE635B51BA15F2A009EE088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BE635B61BA15F2A009EE088 /* Build configuration list for PBXNativeTarget "BibleCubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE635B71BA15F2A009EE088 /* Debug */,
+				0BE635B81BA15F2A009EE088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BE635851BA15F2A009EE088 /* Project object */;
+}
